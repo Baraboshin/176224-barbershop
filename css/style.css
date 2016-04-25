@@ -5,6 +5,7 @@ body {
   font-weight: bold;
   color: #000000;
 }
+
 h1 {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 30px;
@@ -12,6 +13,7 @@ h1 {
   font-weight: bold;
   color: #000000;
 }
+
 h2,
 .index-content h2 {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
@@ -20,6 +22,160 @@ h2,
   font-weight: bold;
   color: #000000;
 }
+
 .index-content h2 {
   color: #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 700px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.main-logo{
+  float:left;
+  width: 111px;
+  height: 24px;
+}
+.navigation-menu{
+  float: left;
+}
+
+.breadcrumbs{
+  margin-bottom: 58px;
+}
+
+.catalog-sidebar {
+  float: left;
+  width: 220px;
+}
+
+.catalog-gallery {
+  float: right;
+  width: 700px;
+}
+.catalog-gallery-items{
+  min-height: 602px;
+  margin-bottom: 25px;
+}
+.gallery-item {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.gallery-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.footer-interior {
+  margin-top: 49px;
+}
+
+.item-content-gallery{
+  float: left;
+    width: 460px;
+}
+
+.picture-small {
+  float: left;
+  margin-right: 20px;
+}
+
+.picture-small:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.item-content-description{
+  float: right;
+  width: 390px;
 }
