@@ -5,14 +5,15 @@ body {
   font-weight: bold;
   color: #000000;
 }
-h1{
+h1 {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 30px;
   line-height: 42px;
   font-weight: bold;
   color: #000000;
 }
-h2{
+h2,
+.index-content h2 {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 24px;
   line-height: 30px;
@@ -20,9 +21,5 @@ h2{
   color: #000000;
 }
 .index-content h2 {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: bold;
   color: #ffffff;
 }
